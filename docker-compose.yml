@@ -2,6 +2,7 @@ version: "3"
 services:
   node-app:
     container_name: node-app-container
+    image: amrmohamedatef/repo1
     build: .
     ports:
       - "3000:3000"
